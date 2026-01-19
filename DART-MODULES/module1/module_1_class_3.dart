@@ -26,8 +26,12 @@ main(){
   String firstName = 'Taufiq';
   String lastName = 'Sabbir';
   String fullName = '$firstName $lastName';
-  String fullName2 = firstName + ' ' + lastName;
-  String fullName3 = '${firstName} ${lastName}';
+  String fullName2 = 'my name is: '+ firstName + ' ' + lastName;
+  String fullName3 = 'my name is: ${firstName} ${lastName}';
+
+  print(fullName);
+  print(fullName2);
+  print(fullName3);
 
   
   print('Lorem ipsum is a dummy or placeholder text commonly used in graphic design, \n publishing, and web development.');
